@@ -4,7 +4,7 @@ body { font: 1em "Trebuchet MS", Helvetica, sans-serif; width: 100%; height: 100
 		
 form {/*Formulário****************************/
 	position: relative;
-	top: 25%;
+	top: 50px;
 	width: 50%;
 	max-width: 500px;
 	min-width: 318px;
