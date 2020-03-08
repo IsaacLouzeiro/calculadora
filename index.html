@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora!</title>
+	<link rel="shortcut icon" href="img/icon.ico">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<form>
+		<h1 id="Titulo">Calculadora</h1>
+
+		<input type="text" name="num1" id="num1" placeholder="Digite o 1º número!" autocomplete="off" autofocus=""><br>
+		<input type="text" name="num2" id="num2" placeholder="Digite o 2º número!" autocomplete="off">
+<br>
+		<input type="button" value="+" id="btSoma" onclick="calc(this)">
+		<input type="button" value="-" id="btSubt" onclick="calc(this)">
+		<input type="button" value="*" id="btMulti" onclick="calc(this)">
+		<input type="button" value="/" id="btDivi" onclick="divi()">
+		<input type="button" value="Limpar" id="btLimpar" onclick="limpar()">
+<br>
+		<input type="text" name="resposta" id="resposta" placeholder="Resposta!" disabled="">
+		<input type="text" name="parImpar" id="parImpar" placeholder="Par ou Ímpar?" disabled="">
+		<div style="clear: both;"></div>
+		<a class="links-redes-sociais" href="https://github.com/IsaacLouzeiro" target="_blank"><img src="img/github-icon.png"></a>
+		<a class="links-redes-sociais" href="https://www.linkedin.com/in/isaac-elias-louzeiro/" target="_blank"><img src="img/linkedin-icon.png"></a>
+	</form>
+
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+</body>
+</html>
